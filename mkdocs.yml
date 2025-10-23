@@ -1,0 +1,27 @@
+site_name: Bypassing Censorship Guide
+site_url: https://mrxehmad.github.io/Bypassing-Censorship-Guide/
+theme:
+  name: material
+
+# Docs are in repo root and subfolders (page/, mkdocs/, README.md)
+docs_dir: .
+
+# Sidebar / navigation. Adjust titles if you prefer different labels.
+nav:
+  - Home: README.md
+  - Bypassing Censorship:
+      - VPNs: page/01-Bypassing-Censorship/01-VPNs.md
+      - Tor: page/01-Bypassing-Censorship/02-Tor.md
+      - Proxies: page/01-Bypassing-Censorship/03-Proxies.md
+  - Privacy Protection:
+      - Secure Messengers: page/02-Privacy-Protection/01-Secure-Messengers.md
+      - Email Encryption: page/02-Privacy-Protection/02-Email-Encryption.md
+  - Country Specific:
+      - Region A: page/03-Country-Specific-Info/01-Region-A.md
+      - Region B: page/03-Country-Specific-Info/02-Region-B.md
+
+# Optional: extra configuration for Material theme
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrxehmad/Bypassing-Censorship-Guide
